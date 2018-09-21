@@ -18,9 +18,9 @@ The underlying issue seems to be the non-deterministic ordering of `<link rel="s
   * Note the text is green as expected
 
 The styles in play here are:
-  * An `.global { color:red; }` style in `App.vue`
-  * An `.home { color: blue }` style in `Home.vue` 
-  * An `.about { color: green }` style in `About.vue` 
+  * A `.global { color:red; }` style in `App.vue`
+  * A `.home { color: blue }` style in `Home.vue` 
+  * A `.about { color: green }` style in `About.vue` 
 
 In production mode, the extracted stylesheets are loaded in the following order:
   * `app.css`
