@@ -17,7 +17,7 @@
     "build:client": "webpack --config build/webpack.client.config.js --hide-modules",
     "build:server": "webpack --config build/webpack.server.config.js --hide-modules",
     "start": "node src/server.js",
-    "dev": "npm run build && npm run start",
+    "dev": "NODE_ENV=development npm run build && NODE_ENV=development npm run start",
     "prod": "NODE_ENV=production npm run build && NODE_ENV=production npm run start"
   },
   "dependencies": {

@@ -24,7 +24,7 @@ app.use('/', (req, res) => {
     const s = Date.now();
 
     const context = {
-        title: 'SSr CSS Ordering Demo',
+        title: 'SSR CSS Ordering Demo',
         request: req,
         response: res,
         url: req.url,
